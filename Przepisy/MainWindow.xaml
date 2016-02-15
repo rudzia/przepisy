@@ -15,15 +15,18 @@
                 <Grid Background="#FFE5E5E5"/>
             </TabItem>
         </TabControl>
-        <Button x:Name="button_Dodaj" Content="Dodaj przepis" HorizontalAlignment="Left" Height="22" Margin="19,29,0,0" VerticalAlignment="Top" Width="81"/>
-        <TextBlock x:Name="textBlock_Przygotowanie" HorizontalAlignment="Left" Height="183" Margin="335,115,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="242"/>
-        <Label x:Name="label_Przygotowanie" Content="Sposób przygotowania :" HorizontalAlignment="Left" Height="35" Margin="335,36,0,0" VerticalAlignment="Top" Width="139"/>
-        <Label x:Name="label_Skladniki" Content="Składnik :" HorizontalAlignment="Left" Height="30" Margin="10,69,0,0" VerticalAlignment="Top" Width="72"/>
-        <TextBox x:Name="textBox_Skladnik" HorizontalAlignment="Left" Height="23" Margin="87,71,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="137"/>
-        <Button x:Name="button_DodajSkladnik" Content="Dodaj" HorizontalAlignment="Left" Height="23" Margin="244,71,0,0" VerticalAlignment="Top" Width="44" Click="button_DodajSkladnik_Click"/>
-        <ListBox x:Name="listBox_Skladniki" HorizontalAlignment="Left" Height="171" Margin="128,127,0,0" VerticalAlignment="Top" Width="145"/>
-        <Button x:Name="button_Usuń" Content="Usuń składnik" HorizontalAlignment="Left" Height="26" Margin="19,127,0,0" VerticalAlignment="Top" Width="82" Click="button_Usuń_Click"/>
-        <Button x:Name="button" Content="Button" HorizontalAlignment="Left" Margin="159,521,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="button_Dodaj" Content="Dodaj przepis" HorizontalAlignment="Left" Height="22" Margin="503,729,0,0" VerticalAlignment="Top" Width="81" Click="button_Dodaj_Click"/>
+        <Label x:Name="label_Przygotowanie" Content="Sposób przygotowania :" HorizontalAlignment="Left" Height="35" Margin="19,361,0,0" VerticalAlignment="Top" Width="139"/>
+        <Label x:Name="label_Skladniki" Content="Składnik :" HorizontalAlignment="Left" Height="23" Margin="19,169,0,0" VerticalAlignment="Top" Width="63"/>
+        <TextBox x:Name="textBox_Skladnik" HorizontalAlignment="Left" Height="23" Margin="105,169,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="177"/>
+        <Button x:Name="button_DodajSkladnik" Content="Dodaj" HorizontalAlignment="Left" Height="23" Margin="19,235,0,0" VerticalAlignment="Top" Width="44" Click="button_DodajSkladnik_Click"/>
+        <ListBox x:Name="listBox_Skladniki" HorizontalAlignment="Left" Height="223" Margin="355,146,0,0" VerticalAlignment="Top" Width="214"/>
+        <Button x:Name="button_Usuń" Content="Usuń składnik" HorizontalAlignment="Left" Height="26" Margin="253,320,0,0" VerticalAlignment="Top" Width="82" Click="button_Usuń_Click"/>
+        <TextBox x:Name="textBox_ilosc" HorizontalAlignment="Left" Height="23" Margin="105,197,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="132"/>
+        <Label x:Name="label_ilosc" HorizontalAlignment="Left" Height="23" Margin="19,197,0,0" VerticalAlignment="Top" Width="38" Content="ilość :"/>
+        <TextBox x:Name="textBox_przygotowanie" HorizontalAlignment="Left" Height="313" Margin="19,414,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="305" SelectionBrush="#FF02090F"/>
+        <TextBox x:Name="textBox_nazwijprzepis" HorizontalAlignment="Left" Height="30" Margin="19,88,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="305"/>
+        <TextBlock x:Name="textBlock_nazwaprzepisu" HorizontalAlignment="Left" Margin="19,48,0,0" TextWrapping="Wrap" Text="Nazwa przepisu :" VerticalAlignment="Top" Width="107"/>
 
     </Grid>
 </Window>

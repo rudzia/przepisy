@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -29,14 +30,16 @@ namespace Przepisy
         {
             if (this.textBox_Skladnik.Text != "")
             {
-                listBox_Skladniki.Items.Add(this.textBox_Skladnik.Text);
+                listBox_Skladniki.Items.Add(this.textBox_Skladnik.Text + " " + this.textBox_ilosc.Text);
                 this.textBox_Skladnik.Focus();
                 this.textBox_Skladnik.Clear();
+                this.textBox_ilosc.Focus();
+                this.textBox_ilosc.Clear();
             }
             else
             {
                 // error
-                MessageBox.Show("Wpisz składnik", "Error", MessageBoxButton.OK, MessageBoxImage.Error,MessageBoxResult.OK);
+                MessageBox.Show("Wpisz składnik", "Error", MessageBoxButton.OK, MessageBoxImage.Error, MessageBoxResult.OK);
                 this.textBox_Skladnik.Focus();
             }
         }
@@ -47,6 +50,22 @@ namespace Przepisy
             {
                 this.listBox_Skladniki.Items.RemoveAt(this.listBox_Skladniki.SelectedIndex);
             }
+        }
+
+        private void button_Dodaj_Click(object sender, RoutedEventArgs e)
+        {
+            StreamWriter File = new StreamWriter(textBox_nazwijprzepis.Text + "." + "txt");
+
+           
+            File.Write(textBox_nazwijprzepis.Text);
+            foreach (string itemText in listBox_Skladniki.Items)
+            {
+                File.Write(itemText);
+            }
+
+            File.Write(textBox_przygotowanie.Text);
+            File.Close();
+
         }
     }
 }

@@ -1,0 +1,1 @@
+System.Windows.Controls.TextBox: pierogiSystem.Windows.Controls.ListBox Items.Count:2System.Windows.Controls.TextBox: ugotuj
