@@ -1,0 +1,14 @@
+C:\Users\black\Documents\Visual Studio 2015\Projects\przepisy\Przepisy\Przepisy\bin\Debug\Przepisy.exe.config
+C:\Users\black\Documents\Visual Studio 2015\Projects\przepisy\Przepisy\Przepisy\obj\Debug\Przepisy.csprojResolveAssemblyReference.cache
+C:\Users\black\Documents\Visual Studio 2015\Projects\przepisy\Przepisy\Przepisy\obj\Debug\MainWindow.g.cs
+C:\Users\black\Documents\Visual Studio 2015\Projects\przepisy\Przepisy\Przepisy\obj\Debug\App.g.cs
+C:\Users\black\Documents\Visual Studio 2015\Projects\przepisy\Przepisy\Przepisy\obj\Debug\Przepisy_MarkupCompile.cache
+C:\Users\black\Documents\Visual Studio 2015\Projects\przepisy\Przepisy\Przepisy\obj\Debug\Przepisy_MarkupCompile.lref
+C:\Users\black\Documents\Visual Studio 2015\Projects\przepisy\Przepisy\Przepisy\bin\Debug\Przepisy.exe
+C:\Users\black\Documents\Visual Studio 2015\Projects\przepisy\Przepisy\Przepisy\bin\Debug\Przepisy.pdb
+C:\Users\black\Documents\Visual Studio 2015\Projects\przepisy\Przepisy\Przepisy\obj\Debug\MainWindow.baml
+C:\Users\black\Documents\Visual Studio 2015\Projects\przepisy\Przepisy\Przepisy\obj\Debug\Przepisy.g.resources
+C:\Users\black\Documents\Visual Studio 2015\Projects\przepisy\Przepisy\Przepisy\obj\Debug\Przepisy.Properties.Resources.resources
+C:\Users\black\Documents\Visual Studio 2015\Projects\przepisy\Przepisy\Przepisy\obj\Debug\Przepisy.csproj.GenerateResource.Cache
+C:\Users\black\Documents\Visual Studio 2015\Projects\przepisy\Przepisy\Przepisy\obj\Debug\Przepisy.exe
+C:\Users\black\Documents\Visual Studio 2015\Projects\przepisy\Przepisy\Przepisy\obj\Debug\Przepisy.pdb
