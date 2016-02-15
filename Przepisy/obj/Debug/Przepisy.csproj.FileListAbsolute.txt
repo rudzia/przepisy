@@ -12,3 +12,6 @@ C:\Users\black\Documents\Visual Studio 2015\Projects\przepisy\Przepisy\Przepisy\
 C:\Users\black\Documents\Visual Studio 2015\Projects\przepisy\Przepisy\Przepisy\obj\Debug\Przepisy.csproj.GenerateResource.Cache
 C:\Users\black\Documents\Visual Studio 2015\Projects\przepisy\Przepisy\Przepisy\obj\Debug\Przepisy.exe
 C:\Users\black\Documents\Visual Studio 2015\Projects\przepisy\Przepisy\Przepisy\obj\Debug\Przepisy.pdb
+C:\projects\przepisy\Przepisy\bin\Debug\Przepisy.exe.config
+C:\projects\przepisy\Przepisy\obj\Debug\Przepisy.exe
+C:\projects\przepisy\Przepisy\obj\Debug\Przepisy.pdb

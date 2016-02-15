@@ -35,6 +35,7 @@ namespace Przepisy
             }
             else
             {
+                // error
                 MessageBox.Show("Wpisz składnik", "Error", MessageBoxButton.OK, MessageBoxImage.Error,MessageBoxResult.OK);
                 this.textBox_Skladnik.Focus();
             }
