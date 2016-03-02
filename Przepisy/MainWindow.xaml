@@ -6,16 +6,20 @@
         xmlns:local="clr-namespace:Przepisy"
         mc:Ignorable="d"
         Title="MainWindow" Height="808.005" Width="625.696">
+
     <Grid>
         <TabControl x:Name="tabControl" HorizontalAlignment="Left" Height="24" VerticalAlignment="Top" Width="307">
-            <TabItem Header="TabItem">
-                <Grid Background="#FFE5E5E5"/>
+            <TabItem Header="przepisy">
+                
+                
             </TabItem>
-            <TabItem Header="TabItem">
-                <Grid Background="#FFE5E5E5"/>
+            
+            <TabItem Header="TabItem2" Name="zakladka">
+                
             </TabItem>
         </TabControl>
-        <Button x:Name="button_Dodaj" Content="Dodaj przepis" HorizontalAlignment="Left" Height="22" Margin="503,729,0,0" VerticalAlignment="Top" Width="81" Click="button_Dodaj_Click"/>
+        
+        <Button x:Name="button_Dodaj" Content="Dodaj przepis" HorizontalAlignment="Left" Height="26" Margin="443,643,0,0" VerticalAlignment="Top" Width="81" Click="button_Dodaj_Click"/>
         <Label x:Name="label_Przygotowanie" Content="Sposób przygotowania :" HorizontalAlignment="Left" Height="35" Margin="19,361,0,0" VerticalAlignment="Top" Width="139"/>
         <Label x:Name="label_Skladniki" Content="Składnik :" HorizontalAlignment="Left" Height="23" Margin="19,169,0,0" VerticalAlignment="Top" Width="63"/>
         <TextBox x:Name="textBox_Skladnik" HorizontalAlignment="Left" Height="23" Margin="105,169,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="177"/>
@@ -25,8 +29,8 @@
         <TextBox x:Name="textBox_ilosc" HorizontalAlignment="Left" Height="23" Margin="105,197,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="132"/>
         <Label x:Name="label_ilosc" HorizontalAlignment="Left" Height="23" Margin="19,197,0,0" VerticalAlignment="Top" Width="38" Content="ilość :"/>
         <TextBox x:Name="textBox_przygotowanie" HorizontalAlignment="Left" Height="313" Margin="19,414,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="305" SelectionBrush="#FF02090F"/>
-        <TextBox x:Name="textBox_nazwijprzepis" HorizontalAlignment="Left" Height="30" Margin="19,88,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="305"/>
+        <TextBox x:Name="textBox_nazwijprzepis" HorizontalAlignment="Left" Height="30" Margin="19,88,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="305" TextChanged="textBox_nazwijprzepis_TextChanged" />
         <TextBlock x:Name="textBlock_nazwaprzepisu" HorizontalAlignment="Left" Margin="19,48,0,0" TextWrapping="Wrap" Text="Nazwa przepisu :" VerticalAlignment="Top" Width="107"/>
-
+<Button Content="Wczytaj" Height="23" HorizontalAlignment="Left" Margin="501,84,0,0" Name="wczytaj" VerticalAlignment="Top" Width="75" Click="button1_Click" />
     </Grid>
 </Window>

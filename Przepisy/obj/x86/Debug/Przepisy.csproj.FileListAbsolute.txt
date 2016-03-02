@@ -1,0 +1,12 @@
+C:\projekty\przepisy\Przepisy\bin\Debug\Przepisy.exe
+C:\projekty\przepisy\Przepisy\bin\Debug\Przepisy.pdb
+C:\projekty\przepisy\Przepisy\obj\x86\Debug\MainWindow.g.cs
+C:\projekty\przepisy\Przepisy\obj\x86\Debug\App.g.cs
+C:\projekty\przepisy\Przepisy\obj\x86\Debug\Przepisy_MarkupCompile.cache
+C:\projekty\przepisy\Przepisy\obj\x86\Debug\Przepisy_MarkupCompile.lref
+C:\projekty\przepisy\Przepisy\obj\x86\Debug\MainWindow.baml
+C:\projekty\przepisy\Przepisy\obj\x86\Debug\Przepisy.g.resources
+C:\projekty\przepisy\Przepisy\obj\x86\Debug\Przepisy.Properties.Resources.resources
+C:\projekty\przepisy\Przepisy\obj\x86\Debug\Przepisy.csproj.GenerateResource.Cache
+C:\projekty\przepisy\Przepisy\obj\x86\Debug\Przepisy.exe
+C:\projekty\przepisy\Przepisy\obj\x86\Debug\Przepisy.pdb
